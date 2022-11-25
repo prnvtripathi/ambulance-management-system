@@ -1,0 +1,13 @@
+html,
+body {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.item-css {
+    background-color: transparent;
+}
+
+.item-css:hover {
+  background-color: #9f9d9d;
+}
