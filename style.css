@@ -1,7 +1,9 @@
 html,
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   max-width: 100%;
+  /* background-image: url(https://images.unsplash.com/photo-1615830646234-826817ce8f17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+  background-repeat: no-repeat; */
 }
 
 .item-css {
@@ -11,7 +13,7 @@ body {
 .item-css:hover {
   background-color: #9f9d9d;
 }
-body {
-  background-image: url(https://images.unsplash.com/photo-1615830646234-826817ce8f17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80 wid);
-  background-repeat: no-repeat;
+
+.carousel-image {
+  width: 50%;
 }
