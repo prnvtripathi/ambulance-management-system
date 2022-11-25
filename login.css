@@ -1,7 +1,8 @@
 html,
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     max-width: 100%;
+    background-image: url(assets/background.jpg);
 }
 
 .main-page {
@@ -10,10 +11,13 @@ body {
     text-align: center;
     outline: 2px solid;
     width: 20%;
+    height: max-content;
     padding: 1rem;
     margin-top: 3rem;
+    margin-bottom: 2rem;
     border-radius: 51px;
     box-shadow: 7px 7px 14px #929da5, -7px -7px 14px #ffffff;
+    background-color: aliceblue;
 }
 
 .heading-section {
@@ -54,6 +58,16 @@ input[type=password]:focus {
     width: 100%
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.forgotpass {
+    margin-top: 0.75rem;
+    font-size: 12px;
+}
+
 .buttonClass {
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
@@ -74,4 +88,19 @@ input[type=password]:focus {
 
 .login {
     width: 50%;
+}
+
+footer {
+    padding: 2% 0;
+    background-color: rgb(222, 219, 219);
+    margin: 2rem 0 0 0;
+}
+
+.footer-info {
+    padding: 0 10%;
+    font-size: 20px;
+}
+
+.footer-text-info {
+    font-size: 0.75rem
 }
