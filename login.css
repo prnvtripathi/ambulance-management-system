@@ -1,12 +1,77 @@
-html, body {
+html,
+body {
     overflow: hidden;
     max-width: 100%;
 }
 
-.login {
-    width: 50%;
+.main-page {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    outline: 2px solid;
+    width: 20%;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 51px;
+    box-shadow: 7px 7px 14px #929da5, -7px -7px 14px #ffffff;
 }
 
-.main-page {
-    
+.heading-section {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.have-an-account {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 75%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 51px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%
+}
+
+input[type=password] {
+    width: 75%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 51px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=password]:focus {
+    width: 100%
+}
+
+.buttonClass {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 70px;
+    height: 35px;
+    border-width: 1px;
+    color: #fff;
+    border-radius: 18px;
+    text-shadow: 0px 1px 0px #051881;
+    background: linear-gradient(#002bdc, #32ded4);
+}
+
+.buttonClass:hover {
+    background: linear-gradient(#32ded4, #002bdc);
+}
+
+.login {
+    width: 50%;
 }
